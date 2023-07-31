@@ -31,5 +31,5 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
  
-    file_path = Path.absolute(Path.joinpath(args.dir_project,Path(args.project), Path(args.project+'.txt')))
+    file_path = Path.absolute(Path.joinpath(args.dir_project, Path(args.project), Path(args.project+'.txt')))
     main(args.github_id, file_path)
